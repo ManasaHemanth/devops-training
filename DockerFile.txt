@@ -2,3 +2,6 @@ hi iam DockerFile
 From Ubuntu
 first update
 last changes done for example
+RUN apt update
+ADD ./app
+EXPOSE 50000
